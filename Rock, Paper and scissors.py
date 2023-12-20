@@ -38,7 +38,7 @@ def playGame():
 playGame()
 player = True
 while player:
-    n = int(input("Enter 1 to continue and 0 to stop: "))
+    n = int(input("Enter 1 to Play again and 0 to stop: "))
     if(n==1):
         playGame()
     else:
